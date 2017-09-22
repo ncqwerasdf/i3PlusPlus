@@ -14,7 +14,10 @@ Those features include:
 
 It is based on the [Marlin firmware](https://github.com/MarlinFirmware/Marlin) 1.1.4 instead of an old one like the original version from Wanhao.
 
-This firmware is a fork of the work of [Silverquark](https://silverquark.github.io/i3PlusPlusSite/). The main difference is at the level of the LCD. The original version of Leo Lüker (Silverquark) uses dark green on a white background. This version uses orange and blue on a black background (i.e. has higher contrast):
+This firmware is a fork of the work of [Silverquark](https://silverquark.github.io/i3PlusPlusSite/). The main differences are:
+
+* Higher contrast for the LCD images.The original version of Leo Lüker (Silverquark) uses dark green on a white background. This version uses orange and blue on a black background
+* Variable texts are in white
 
 ![Starting Animation](https://raw.githubusercontent.com/andrivet/i3PlusPlus/master/assets/LCD.gif)
 
@@ -84,11 +87,11 @@ It is possible to flash the printer with other softwares such as :
 
 # Known issues
 
-* I have just change the bitmaps, not the metadata associated to them. In particular, I have not changed the colors of the variable texts. As a consequence, the list of files on the SD card is invisible (black text on black background). I will fix that.
+* The **Print** icon is wrong on the **SD Card** screen (it is a gear)
 
 # Future plans
 
-* Fix the problem of the black text on black background
+* Fix **Print** icon on the **SD Card** screen
 * Change some screens to display icons instead of text (for example for in the Filament menu)
 * Change the fonts for the variable parts (LCD)
 * Merge the latest version of Marlin
